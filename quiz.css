@@ -1,0 +1,25 @@
+@media only screen and (min-width: 600px) {
+    .quiz {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+  }
+
+.quiz {
+    width : 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.spørsmål {
+    width : 20%
+}
+
+.quizingress {
+    font-style: italic;
+}

@@ -1,0 +1,53 @@
+/* stil.css */
+body {
+    background-image: url("bilder/bits.svg");
+    font-size: large;
+}
+
+main {
+    background-color: white;
+    border: dashed;
+    border-width: 2px;
+}
+
+.rounded {
+    border-radius: 4px;
+    margin: 5px 0 5px;
+}
+
+.galleri img {
+    height: 200px;
+}
+
+
+#css-img:hover {
+    background-color: yellow;
+}
+
+nav, footer{
+    background-color: turquoise;
+}
+
+header {
+    font-size: xx-large;
+}
+
+
+
+aside {
+    font-style: italic;
+    background-color: rgba(255, 50, 50, 0.5)
+}
+
+.footer-img {
+    height: 1.125em; /*Tilsvarer font-size large. se: https://websemantics.uk/tools/font-size-conversion-pixel-point-em-rem-percent/ */
+    padding-top: 3px;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+li { background: white; }
+li:nth-child(odd) { background: lightgrey; }
+
